@@ -91,7 +91,7 @@ h4, h1, h3, p{
     gap: 1.5rem;
     align-items: center;
 }
-.header__user-icon{
+.header__user-icon, .side-news__trending-user-icon{
     width: 3rem;
     height: 3rem;
 }
@@ -145,7 +145,7 @@ h4, h1, h3, p{
     padding-bottom: 5%;
     background-color: #e2e8f0;
 }
-.main__title, .side-news__announcements-title{
+.main__title, .side-news__announcements-title, .side-news__trending-title{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
@@ -181,7 +181,7 @@ h4, h1, h3, p{
     padding: 1.5rem;
 
 }
-.side-news__announcements-container{
+.side-news__announcements-container, .side-news__trending-container{
     background-color: white;
     border-radius: 0.5rem;
     padding: 2.2rem;
@@ -200,4 +200,29 @@ hr{
     color: #252733;
     width: 100%;
 }
+.side-news{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.side-news__trending-container{
+    gap:2rem
+}
+.side-news__trending-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.side-news__trending-element{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.side-news__trending-username{
+    font-size: 1.1rem;
+}
+.side-news__trending-text{
+    color: rgb(88, 88, 88);
+}
+
 
